@@ -1,5 +1,5 @@
--- Create  Database 'DataWarehouse'
-
+CREATE DATABASE DataWarehouse;
+GO
 USE master;
 
 IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'DataWarehouse')
@@ -12,6 +12,7 @@ GO
 CREATE DATABASE DataWarehouse;
 
 USE DataWarehouse;
+GO
 
 CREATE SCHEMA bronze;
 GO

@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\datasets",
+    "\\datasets\\source_crm",
+    "\\datasets\\source_erp",
+    "\\scripts",
+    "\\scripts\\bronze"
+  ],
+  "SelectedNode": "\\scripts\\bronze\\proc_load_bronze.sql",
+  "PreviewInSolutionExplorer": false
+}
