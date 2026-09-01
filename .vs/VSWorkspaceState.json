@@ -5,8 +5,9 @@
     "\\datasets\\source_crm",
     "\\datasets\\source_erp",
     "\\scripts",
-    "\\scripts\\bronze"
+    "\\scripts\\bronze",
+    "\\scripts\\silver"
   ],
-  "SelectedNode": "\\scripts\\bronze\\proc_load_bronze.sql",
+  "SelectedNode": "\\scripts\\silver\\ddl_silver.sql",
   "PreviewInSolutionExplorer": false
 }

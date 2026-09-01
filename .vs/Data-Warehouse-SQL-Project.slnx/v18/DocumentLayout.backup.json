@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\projects\\Data-Warehouse-SQL-Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\Data-Warehouse-SQL-Project\\scripts\\bulk_insert_query.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scripts\\bulk_insert_query.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\Data-Warehouse-SQL-Project\\scripts\\bronze\\ddl_bronze.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scripts\\bronze\\ddl_bronze.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\Data-Warehouse-SQL-Project\\scripts\\sql_ddl.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scripts\\sql_ddl.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\Data-Warehouse-SQL-Project\\scripts\\init_query.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scripts\\init_query.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\Data-Warehouse-SQL-Project\\scripts\\bronze\\proc_load_bronze.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scripts\\bronze\\proc_load_bronze.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,39 +26,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "bulk_insert_query.sql - (local)\\sqlexpress.DataWarehouse (LAPTOP-E34VE45R\\Ian Calica (59))",
-              "DocumentMoniker": "C:\\projects\\Data-Warehouse-SQL-Project\\scripts\\bulk_insert_query.sql",
-              "RelativeDocumentMoniker": "scripts\\bulk_insert_query.sql",
-              "ToolTip": "C:\\projects\\Data-Warehouse-SQL-Project\\scripts\\bulk_insert_query.sql - (local)\\sqlexpress.DataWarehouse (LAPTOP-E34VE45R\\Ian Calica (59))",
-              "RelativeToolTip": "scripts\\bulk_insert_query.sql - (local)\\sqlexpress.DataWarehouse (LAPTOP-E34VE45R\\Ian Calica (59))",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-08-29T17:03:11.559Z",
-              "EditorCaption": " - (local)\\sqlexpress.DataWarehouse (LAPTOP-E34VE45R\\Ian Calica (59))"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "sql_ddl.sql - (local)\\sqlexpress.DataWarehouse (LAPTOP-E34VE45R\\Ian Calica (52))",
-              "DocumentMoniker": "C:\\projects\\Data-Warehouse-SQL-Project\\scripts\\sql_ddl.sql",
-              "RelativeDocumentMoniker": "scripts\\sql_ddl.sql",
-              "ToolTip": "C:\\projects\\Data-Warehouse-SQL-Project\\scripts\\sql_ddl.sql - (local)\\sqlexpress.DataWarehouse (LAPTOP-E34VE45R\\Ian Calica (52))",
-              "RelativeToolTip": "scripts\\sql_ddl.sql - (local)\\sqlexpress.DataWarehouse (LAPTOP-E34VE45R\\Ian Calica (52))",
+              "Title": "proc_load_bronze.sql - (local)\\sqlexpress.DataWarehouse (LAPTOP-E34VE45R\\Ian Calica (70))",
+              "DocumentMoniker": "C:\\projects\\Data-Warehouse-SQL-Project\\scripts\\bronze\\proc_load_bronze.sql",
+              "RelativeDocumentMoniker": "scripts\\bronze\\proc_load_bronze.sql",
+              "ToolTip": "C:\\projects\\Data-Warehouse-SQL-Project\\scripts\\bronze\\proc_load_bronze.sql - (local)\\sqlexpress.DataWarehouse (LAPTOP-E34VE45R\\Ian Calica (70))",
+              "RelativeToolTip": "scripts\\bronze\\proc_load_bronze.sql - (local)\\sqlexpress.DataWarehouse (LAPTOP-E34VE45R\\Ian Calica (70))",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-08-29T16:59:58.123Z",
-              "EditorCaption": " - (local)\\sqlexpress.DataWarehouse (LAPTOP-E34VE45R\\Ian Calica (52))"
+              "WhenOpened": "2026-08-31T12:21:00.125Z",
+              "EditorCaption": " - (local)\\sqlexpress.DataWarehouse (LAPTOP-E34VE45R\\Ian Calica (70))"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "init_query.sql - (local)\\sqlexpress.DataWarehouse (LAPTOP-E34VE45R\\Ian Calica (55))",
-              "DocumentMoniker": "C:\\projects\\Data-Warehouse-SQL-Project\\scripts\\init_query.sql",
-              "RelativeDocumentMoniker": "scripts\\init_query.sql",
-              "ToolTip": "C:\\projects\\Data-Warehouse-SQL-Project\\scripts\\init_query.sql - (local)\\sqlexpress.DataWarehouse (LAPTOP-E34VE45R\\Ian Calica (55))",
-              "RelativeToolTip": "scripts\\init_query.sql - (local)\\sqlexpress.DataWarehouse (LAPTOP-E34VE45R\\Ian Calica (55))",
+              "DocumentIndex": 0,
+              "Title": "ddl_bronze.sql - (local)\\sqlexpress.DataWarehouse (LAPTOP-E34VE45R\\Ian Calica (63))",
+              "DocumentMoniker": "C:\\projects\\Data-Warehouse-SQL-Project\\scripts\\bronze\\ddl_bronze.sql",
+              "RelativeDocumentMoniker": "scripts\\bronze\\ddl_bronze.sql",
+              "ToolTip": "C:\\projects\\Data-Warehouse-SQL-Project\\scripts\\bronze\\ddl_bronze.sql - (local)\\sqlexpress.DataWarehouse (LAPTOP-E34VE45R\\Ian Calica (63))",
+              "RelativeToolTip": "scripts\\bronze\\ddl_bronze.sql - (local)\\sqlexpress.DataWarehouse (LAPTOP-E34VE45R\\Ian Calica (63))",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-08-29T16:39:01.846Z",
-              "EditorCaption": " - (local)\\sqlexpress.DataWarehouse (LAPTOP-E34VE45R\\Ian Calica (55))"
+              "WhenOpened": "2026-08-31T12:20:39.467Z",
+              "EditorCaption": " - (local)\\sqlexpress.DataWarehouse (LAPTOP-E34VE45R\\Ian Calica (63))"
             }
           ]
         }
