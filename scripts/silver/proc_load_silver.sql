@@ -1,5 +1,3 @@
--- Create the diagram at the end of the video
-
 CREATE OR ALTER PROCEDURE silver.load_silver AS
 BEGIN
     
@@ -45,7 +43,6 @@ BEGIN
     )
     SELECT 
     prd_id,
-    prd_key,
     REPLACE(SUBSTRING(prd_key,1,5), '-','_') AS cat_id,
     SUBSTRING(prd_key,7, LEN(prd_key)) AS prd_key,      
     prd_nm,
@@ -100,7 +97,7 @@ BEGIN
     FROM bronze.crm_sales_details;
 
     -- For erp_cust_az12
-    INSERT INTO silver.erp_cust_az12(cid,bdate,gen)
+    INSERT INTO silver.erp_cust_az12(cid,bdate,gender)
     SELECT
     CASE WHEN cid LIKE 'NAS%' THEN SUBSTRING(cid, 4, LEN(cid))
         ELSE cid
@@ -110,8 +107,8 @@ BEGIN
         ELSE bdate
     END AS bdate,
 
-    CASE WHEN UPPER(TRIM(gen)) IN('F', 'Female') THEN 'Female'
-        WHEN UPPER(TRIM(gen)) IN('M', 'Male') THEN 'Male'
+    CASE WHEN UPPER(TRIM(gender)) IN('F', 'Female') THEN 'Female'
+        WHEN UPPER(TRIM(gender)) IN('M', 'Male') THEN 'Male'
         ELSE 'n/a'
     END AS gen
     FROM bronze.erp_cust_az12;

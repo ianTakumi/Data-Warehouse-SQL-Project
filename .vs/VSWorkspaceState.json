@@ -5,9 +5,8 @@
     "\\datasets\\source_crm",
     "\\datasets\\source_erp",
     "\\scripts",
-    "\\scripts\\bronze",
-    "\\scripts\\silver"
+    "\\scripts\\bronze"
   ],
-  "SelectedNode": "\\.gitignore",
+  "SelectedNode": "\\scripts\\bronze\\ddl_bronze.sql",
   "PreviewInSolutionExplorer": false
 }
